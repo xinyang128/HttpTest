@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE782FA51BFAC5BC0041C080 /* socket.c in Sources */ = {isa = PBXBuildFile; fileRef = FE782FA41BFAC5BC0041C080 /* socket.c */; };
+		FE782FA71BFACEC10041C080 /* StunTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE782FA61BFACEC10041C080 /* StunTest.swift */; };
+		FE782FA91BFB0AB20041C080 /* TcpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE782FA81BFB0AB20041C080 /* TcpClient.swift */; };
+		FE782FAB1BFB16C30041C080 /* TcpClientTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE782FAA1BFB16C30041C080 /* TcpClientTest.swift */; };
 		FEBF73911BF9C08900A7DD34 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBF73901BF9C08900A7DD34 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +27,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FE782FA31BFAC5BB0041C080 /* HttpTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HttpTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		FE782FA41BFAC5BC0041C080 /* socket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = socket.c; sourceTree = "<group>"; };
+		FE782FA61BFACEC10041C080 /* StunTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StunTest.swift; sourceTree = "<group>"; };
+		FE782FA81BFB0AB20041C080 /* TcpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TcpClient.swift; sourceTree = "<group>"; };
+		FE782FAA1BFB16C30041C080 /* TcpClientTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TcpClientTest.swift; sourceTree = "<group>"; };
 		FEBF738D1BF9C08900A7DD34 /* HttpTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HttpTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEBF73901BF9C08900A7DD34 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +67,11 @@
 			isa = PBXGroup;
 			children = (
 				FEBF73901BF9C08900A7DD34 /* main.swift */,
+				FE782FA41BFAC5BC0041C080 /* socket.c */,
+				FE782FA31BFAC5BB0041C080 /* HttpTest-Bridging-Header.h */,
+				FE782FA61BFACEC10041C080 /* StunTest.swift */,
+				FE782FA81BFB0AB20041C080 /* TcpClient.swift */,
+				FE782FAA1BFB16C30041C080 /* TcpClientTest.swift */,
 			);
 			path = HttpTest;
 			sourceTree = "<group>";
@@ -119,7 +133,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE782FA91BFB0AB20041C080 /* TcpClient.swift in Sources */,
+				FE782FA51BFAC5BC0041C080 /* socket.c in Sources */,
+				FE782FAB1BFB16C30041C080 /* TcpClientTest.swift in Sources */,
 				FEBF73911BF9C08900A7DD34 /* main.swift in Sources */,
+				FE782FA71BFACEC10041C080 /* StunTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,14 +227,21 @@
 		FEBF73951BF9C08900A7DD34 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HttpTest/HttpTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		FEBF73961BF9C08900A7DD34 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HttpTest/HttpTest-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -239,6 +264,7 @@
 				FEBF73961BF9C08900A7DD34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
