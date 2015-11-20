@@ -5,7 +5,7 @@
 //  Created by wanglong on 15/11/17.
 //  Copyright © 2015年 wanglong. All rights reserved.
 //
-#include "HttpTest-Bridging-Header.h"
+//#include "HttpTest-Bridging-Header.h"
 #include <stdio.h>
 #include <string.h>
 #include <arpa/inet.h>
@@ -13,13 +13,7 @@
 #include <netdb.h>
 #include <unistd.h>
 #include <fcntl.h>
-//#include <errno.h>
-//#include <stdlib.h>
-//#include <signal.h>
-//#include <dirent.h>
-//#include <sys/types.h>
-//#include <netinet/in.h>
-//#include <sys/stat.h>
+
 
 
 /**

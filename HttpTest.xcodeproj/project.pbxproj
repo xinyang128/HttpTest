@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE4B65D51BFEF0240081FDB1 /* dispatch302Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4B65D41BFEF0240081FDB1 /* dispatch302Test.swift */; };
 		FE782FA51BFAC5BC0041C080 /* socket.c in Sources */ = {isa = PBXBuildFile; fileRef = FE782FA41BFAC5BC0041C080 /* socket.c */; };
 		FE782FA71BFACEC10041C080 /* StunTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE782FA61BFACEC10041C080 /* StunTest.swift */; };
 		FE782FA91BFB0AB20041C080 /* TcpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE782FA81BFB0AB20041C080 /* TcpClient.swift */; };
 		FE782FAB1BFB16C30041C080 /* TcpClientTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE782FAA1BFB16C30041C080 /* TcpClientTest.swift */; };
+		FE782FAF1BFB27550041C080 /* HTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE782FAE1BFB27550041C080 /* HTTP.swift */; };
 		FEBF73911BF9C08900A7DD34 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBF73901BF9C08900A7DD34 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,11 +29,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FE4B65D41BFEF0240081FDB1 /* dispatch302Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dispatch302Test.swift; sourceTree = "<group>"; };
 		FE782FA31BFAC5BB0041C080 /* HttpTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HttpTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		FE782FA41BFAC5BC0041C080 /* socket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = socket.c; sourceTree = "<group>"; };
 		FE782FA61BFACEC10041C080 /* StunTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StunTest.swift; sourceTree = "<group>"; };
 		FE782FA81BFB0AB20041C080 /* TcpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TcpClient.swift; sourceTree = "<group>"; };
 		FE782FAA1BFB16C30041C080 /* TcpClientTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TcpClientTest.swift; sourceTree = "<group>"; };
+		FE782FAE1BFB27550041C080 /* HTTP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTP.swift; sourceTree = "<group>"; };
 		FEBF738D1BF9C08900A7DD34 /* HttpTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HttpTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEBF73901BF9C08900A7DD34 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +76,8 @@
 				FE782FA61BFACEC10041C080 /* StunTest.swift */,
 				FE782FA81BFB0AB20041C080 /* TcpClient.swift */,
 				FE782FAA1BFB16C30041C080 /* TcpClientTest.swift */,
+				FE782FAE1BFB27550041C080 /* HTTP.swift */,
+				FE4B65D41BFEF0240081FDB1 /* dispatch302Test.swift */,
 			);
 			path = HttpTest;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 				FE782FA91BFB0AB20041C080 /* TcpClient.swift in Sources */,
 				FE782FA51BFAC5BC0041C080 /* socket.c in Sources */,
 				FE782FAB1BFB16C30041C080 /* TcpClientTest.swift in Sources */,
+				FE782FAF1BFB27550041C080 /* HTTP.swift in Sources */,
 				FEBF73911BF9C08900A7DD34 /* main.swift in Sources */,
+				FE4B65D51BFEF0240081FDB1 /* dispatch302Test.swift in Sources */,
 				FE782FA71BFACEC10041C080 /* StunTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
